@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4C7D96E1DB03EC000B2BB64 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7D96D1DB03EC000B2BB64 /* main.swift */; };
+		E4C7D9751DB03EFE00B2BB64 /* io.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7D9741DB03EFE00B2BB64 /* io.swift */; };
+		E4C7D9771DB03F3700B2BB64 /* userInteract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7D9761DB03F3700B2BB64 /* userInteract.swift */; };
+		E4C7D9791DB0427000B2BB64 /* zooClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7D9781DB0427000B2BB64 /* zooClass.swift */; };
+		E4C7D97B1DB0430500B2BB64 /* classTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7D97A1DB0430500B2BB64 /* classTypes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C7D9681DB03EC000B2BB64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4C7D96A1DB03EC000B2BB64 /* LukesZoo-LL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LukesZoo-LL"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C7D96D1DB03EC000B2BB64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E4C7D9741DB03EFE00B2BB64 /* io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = io.swift; sourceTree = "<group>"; };
+		E4C7D9761DB03F3700B2BB64 /* userInteract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userInteract.swift; sourceTree = "<group>"; };
+		E4C7D9781DB0427000B2BB64 /* zooClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zooClass.swift; sourceTree = "<group>"; };
+		E4C7D97A1DB0430500B2BB64 /* classTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classTypes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4C7D9671DB03EC000B2BB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4C7D9611DB03EC000B2BB64 = {
+			isa = PBXGroup;
+			children = (
+				E4C7D96C1DB03EC000B2BB64 /* LukesZoo-LL */,
+				E4C7D96B1DB03EC000B2BB64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4C7D96B1DB03EC000B2BB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7D96A1DB03EC000B2BB64 /* LukesZoo-LL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4C7D96C1DB03EC000B2BB64 /* LukesZoo-LL */ = {
+			isa = PBXGroup;
+			children = (
+				E4C7D96D1DB03EC000B2BB64 /* main.swift */,
+				E4C7D9741DB03EFE00B2BB64 /* io.swift */,
+				E4C7D9761DB03F3700B2BB64 /* userInteract.swift */,
+				E4C7D9781DB0427000B2BB64 /* zooClass.swift */,
+				E4C7D97A1DB0430500B2BB64 /* classTypes.swift */,
+			);
+			path = "LukesZoo-LL";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4C7D9691DB03EC000B2BB64 /* LukesZoo-LL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C7D9711DB03EC000B2BB64 /* Build configuration list for PBXNativeTarget "LukesZoo-LL" */;
+			buildPhases = (
+				E4C7D9661DB03EC000B2BB64 /* Sources */,
+				E4C7D9671DB03EC000B2BB64 /* Frameworks */,
+				E4C7D9681DB03EC000B2BB64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LukesZoo-LL";
+			productName = "LukesZoo-LL";
+			productReference = E4C7D96A1DB03EC000B2BB64 /* LukesZoo-LL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4C7D9621DB03EC000B2BB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Luuke192;
+				TargetAttributes = {
+					E4C7D9691DB03EC000B2BB64 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4C7D9651DB03EC000B2BB64 /* Build configuration list for PBXProject "LukesZoo-LL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4C7D9611DB03EC000B2BB64;
+			productRefGroup = E4C7D96B1DB03EC000B2BB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4C7D9691DB03EC000B2BB64 /* LukesZoo-LL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4C7D9661DB03EC000B2BB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C7D96E1DB03EC000B2BB64 /* main.swift in Sources */,
+				E4C7D9771DB03F3700B2BB64 /* userInteract.swift in Sources */,
+				E4C7D97B1DB0430500B2BB64 /* classTypes.swift in Sources */,
+				E4C7D9751DB03EFE00B2BB64 /* io.swift in Sources */,
+				E4C7D9791DB0427000B2BB64 /* zooClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4C7D96F1DB03EC000B2BB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4C7D9701DB03EC000B2BB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4C7D9721DB03EC000B2BB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E4C7D9731DB03EC000B2BB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4C7D9651DB03EC000B2BB64 /* Build configuration list for PBXProject "LukesZoo-LL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C7D96F1DB03EC000B2BB64 /* Debug */,
+				E4C7D9701DB03EC000B2BB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C7D9711DB03EC000B2BB64 /* Build configuration list for PBXNativeTarget "LukesZoo-LL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C7D9721DB03EC000B2BB64 /* Debug */,
+				E4C7D9731DB03EC000B2BB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4C7D9621DB03EC000B2BB64 /* Project object */;
+}
